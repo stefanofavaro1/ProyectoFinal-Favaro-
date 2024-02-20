@@ -1,0 +1,113 @@
+body {
+  background: linear-gradient(90deg, #fff 0%, blueviolet 100%);
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  text-shadow: 1px 2px 2px blueviolet;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  background: linear-gradient(90deg, #fff 0%, blueviolet 100%);
+}
+
+li {
+  float: left;
+  border-right: 3px solid 90deg, #fff 0%, blueviolet 100%;
+}
+
+li a {
+  display: block;
+  color: blueviolet;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.active {
+  background-color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+form {
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  border-radius: 20px;
+  text-align: center;
+  width: 340px;
+}
+form .input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+h2 {
+  color: blueviolet;
+  font-size: 35px;
+}
+
+label {
+  color: #283629;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+label input, label textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: rgb(214, 205, 223);
+  border: 2px solid #EDFFF0;
+  color: #283629;
+  outline: none;
+}
+label input input::placeholder, label input textarea::placeholder, label textarea input::placeholder, label textarea textarea::placeholder {
+  color: #b5cab6;
+}
+label input input::placeholder .form-txt, label input textarea::placeholder .form-txt, label textarea input::placeholder .form-txt, label textarea textarea::placeholder .form-txt {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+label input input::placeholder .form-txt .form-txt a, label input textarea::placeholder .form-txt .form-txt a, label textarea input::placeholder .form-txt .form-txt a, label textarea textarea::placeholder .form-txt .form-txt a {
+  color: aquamarine;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+label input input::placeholder .form-txt .form-txt a .btn, label input textarea::placeholder .form-txt .form-txt a .btn, label textarea input::placeholder .form-txt .form-txt a .btn, label textarea textarea::placeholder .form-txt .form-txt a .btn {
+  font-size: 16px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 25px;
+  background-color: #51D94C;
+  box-shadow: 0 0 20px 90deg, #fff 0%, blueviolet 100%;
+  cursor: pointer;
+}
+label input input::placeholder .form-txt .form-txt a .btn .btn:hover, label input textarea::placeholder .form-txt .form-txt a .btn .btn:hover, label textarea input::placeholder .form-txt .form-txt a .btn .btn:hover, label textarea textarea::placeholder .form-txt .form-txt a .btn .btn:hover {
+  background-color: #51D94C;
+}
+
+@media (max-width: 991px) {
+  body {
+    padding: 30px;
+  }
+  form {
+    padding: 50px 30px;
+    width: 100%;
+  }
+  input {
+    padding: 15px;
+  }
+}
+
+/*# sourceMappingURL=contacto.css.map */
